@@ -3,7 +3,7 @@ This project includes a 3DOF MRAAM model. The model is built in NSE coordinate s
 * relative motion：describes the relative motion of missile and target；
 * guidance law：PNG；
 * aerodynamics：make calculation according to aerodynamic coefficient；
-* propulsion and mass：make calculation according to aerodynamic coefficient propulsion and mass；
+* propulsion and mass：calculate propulsion and mass；
 * atmospheric parameters：calculate atmospheric parameters；
 * dynamics and kinematics：3DOF dynamics and kinematics model of missile and target；
 * seeker：provide active and lock logic of missile seeker；
