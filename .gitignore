@@ -1,4 +1,8 @@
 temp/
-PSDD/slprj/
+slprj/
+firecontrol/slprj
+firecontrol/Raero/slprj
+missile/PSDD/slprj/
 *.slxc
+*.asv
 
