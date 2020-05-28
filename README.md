@@ -10,15 +10,26 @@ This project includes a 3DOF MRAAM model. The model is built in NSE coordinate s
 * terminate conditions：provide missile terminate conditions；
 * TGO calculation：provide TGO calculation.
 ![missile simulink model](https://raw.githubusercontent.com/YangShengqi/FarEastJavelin/master/img/simulink_model.PNG)
+
 # Requirement
 * MATLAB 2018b 
 
 # Documents
-* coe.mat: aerodynamic coefficient load file；
-* init.m: missile parameters initialize file;
-* draw.m: plot file；
-* missile.slx: missile simulink model.
-
+* missile
+   * PSDD: horizontal trajectory missile model   
+      * coe.mat: aerodynamic coefficient load file；
+	  * init.m: missile parameters initialize file;
+      * draw.m: plot file；
+      * missile.slx: missile simulink model.
+* firecontrol
+   * model: missile model used for DLZ calculation
+   * utils: some tool functions
+   * Raero: Raero calculation
+      * data: Raero data for fitting
+	  * Raero_cal.m: Raero calculation for one or some conditions
+	  * Raero_fit.m: Raero fitting for various conditions
+   * Ropt: as same as Raero
+   
 # TODO
 This project is still under development. More detailed missile model and some fire control algorithms are going to be added. 
 This project will be built into a integrated project with missile model and fire control algorithms.
