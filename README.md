@@ -9,7 +9,7 @@ This project includes a 3DOF MRAAM model. The model is built in NSE coordinate s
 * seeker：provide active and lock logic of missile seeker；
 * terminate conditions：provide missile terminate conditions；
 * TGO calculation：provide TGO calculation.
-![missile simulink model](https://raw.githubusercontent.com/YangShengqi/FarEastJavelin/master/img/simulink_model.PNG)
+![missile simulink model](https://github.com/YangShengqi/Javelin/blob/master/img/simulink_model.PNG)
 
 # Requirement
 * MATLAB 2018b 
