@@ -1,4 +1,4 @@
-# FarEastJavelin
+# Introduction
 This project includes a 3DOF MRAAM model. The model is built in NSE coordinate system. It contains the following module.
 * relative motion：describes the relative motion of missile and target；
 * guidance law：PNG；
