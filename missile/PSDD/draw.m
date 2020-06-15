@@ -1,6 +1,6 @@
 figure;
-plot3(xt(:,1),xt(:,3),xt(:,2));
-axis([-inf,inf,-inf,inf,0,8000])
+plot3(xtt(:,1),xtt(:,3),xtt(:,2),'+');
 hold on
-plot3(xm(:,1),xm(:,3),xm(:,2));
+plot3(xmm(:,1),xmm(:,3),xmm(:,2));
 grid on
+axis equal

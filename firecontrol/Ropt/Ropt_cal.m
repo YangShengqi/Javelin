@@ -11,11 +11,11 @@ num = 360/interval+1;
 Ropt = zeros(1, num);
 qtheta = zeros(1, num);
 Ropt_q = [];
-q = 0/57.3 : 5/57.3 : 30/57.3;
+q = 0/57.3 : 10/57.3 : 50/57.3;
 while opt_idx <= 180/interval+1
     for qq = q
         Ra = 10000;
-        Rb = 250000;
+        Rb = 220000;
         while (Rb-Ra) > 50
             Rg = Ra + 0.618*(Rb-Ra);
             [xm, ym, zm] = launch_pos(xt, yt, zt, ym, Rg, qsj);
@@ -39,11 +39,13 @@ while opt_idx <= 180/interval+1
     qtheta(opt_idx) = q(qq_idx);
     Ropt_q = [];
     qsj = deg2rad(interval * opt_idx);
+    disp(opt_idx);
     opt_idx = opt_idx + 1;
 end
 Ropt(end:-1:180/interval+2) = Ropt(1:180/interval);
 qtheta(end:-1:180/interval+2) = qtheta(1:180/interval);
-disp([Ropt]);
+disp(Ropt);
+disp(rad2deg(qtheta));
 
 qi = deg2rad(0:interval:360);
 qs = deg2rad(0:1:360);

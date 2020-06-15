@@ -12,7 +12,7 @@ num = 360/interval+1;
 Raero = zeros(1, num);
 qtheta = zeros(1, num);
 Raero_q = [];
-q = 0/57.3 : 5/57.3 : 30/57.3;
+q = 0/57.3 : 10/57.3 : 50/57.3;
 while aero_idx <= 180/interval+1
     for qq = q
         Ra = 30000;
@@ -46,8 +46,8 @@ while aero_idx <= 180/interval+1
 end
 Raero(end:-1:180/interval+2) = Raero(1:180/interval);
 qtheta(end:-1:180/interval+2) = qtheta(1:180/interval);
-disp([Raero]);
-disp([qtheta]);
+disp(Raero);
+disp(rad2deg(qtheta));
 
 qi = deg2rad(0:interval:360);
 qs = deg2rad(0:1:360);
