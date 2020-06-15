@@ -22,7 +22,7 @@ This project includes a 3DOF MRAAM model. The model is built in NSE coordinate s
       * draw.m: plot file；
       * missile.slx: missile simulink model.
 * firecontrol
-   * model: missile model used for DLZ calculation
+   * model: missile model used for DLZ calculation, including various maneuvering styles of target used for DLZ calculation
    * utils: some tool functions
    * Raero: Raero calculation
       * data: Raero data for fitting
