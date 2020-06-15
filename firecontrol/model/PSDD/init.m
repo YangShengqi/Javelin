@@ -29,5 +29,5 @@ halfa_seeker_lock = 15;%degree, half locking angle of missile seeker
 nn_lim = 40; %normal load constraint
 TGO_max = 200;%s,TGO constraint
 
-%init_t = [50000 5000 0 180 0 deg2rad(0)];
-%init_m = [0 5000 30000 180 0 deg2rad(30)];
+init_t = [70000 5000 0 -180 deg2rad(0) deg2rad(0)];
+init_m = [0 5000 30000 180 0 deg2rad(30)];
