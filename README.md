@@ -29,6 +29,9 @@ This project includes a 3DOF MRAAM model. The model is built in NSE coordinate s
 	  * Raero_cal.m: Raero calculation for one or some conditions
 	  * Raero_fit.m: Raero fitting for various conditions
    * Ropt: as same as Raero
+   * Rmax: as same as Raero
+   * Rpi: as same as Raero
+   * Rmin: as same as Raero
    
 # TODO
 This project is still under development. More detailed missile model and some fire control algorithms are going to be added. 
