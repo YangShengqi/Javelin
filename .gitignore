@@ -1,7 +1,13 @@
 temp/
 slprj/
 firecontrol/slprj
+firecontrol/model/PSDD/slprj
 firecontrol/Raero/slprj
+firecontrol/Ropt/slprj
+firecontrol/Rmax/slprj
+firecontrol/Rpi/slprj
+firecontrol/Rtr/slprj
+firecontrol/Rmin/slprj
 missile/PSDD/slprj/
 *.slxc
 *.asv

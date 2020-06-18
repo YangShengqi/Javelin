@@ -2,6 +2,7 @@
 clear
 clc
 addpath('../utils', '../model/PSDD')
+motion_style = 2;
 xt=100000; zt=0; theta_t=deg2rad(0); psi_t=deg2rad(0);
 vpj=1000;
 vm_idx = 340*0.7 : 340*0.2 : 340*1.5;
@@ -78,5 +79,5 @@ qsj_num = 360/qsj_interval+1;
 vm_idx = 340*0.7 : 340*0.2 : 340*1.5;
 vt_idx = 340*0.7 : 340*0.2 : 340*1.5;
 hm_idx = 5000 : 1000 : 15000;
-coe_aero = cal_coe('aero.mat', 15, qsj_num, vm_idx, vt_idx, hm_idx);
-save('coe_aero.mat', 'coe_aero');
+coe_opt = cal_coe('opt.mat', 15, qsj_num, vm_idx, vt_idx, hm_idx);
+save('coe_opt.mat', 'coe_opt');

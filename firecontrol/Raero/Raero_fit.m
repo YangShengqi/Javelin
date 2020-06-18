@@ -2,6 +2,7 @@
 clear
 clc
 addpath('../utils', '../model/PSDD')
+motion_style = 1;
 xt=100000; zt=0; theta_t=deg2rad(0); psi_t=deg2rad(0);
 vpj=1000;
 vm_idx = 340*0.7 : 340*0.2 : 340*1.5;
