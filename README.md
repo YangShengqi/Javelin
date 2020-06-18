@@ -1,7 +1,8 @@
 # Introduction
-This project includes a 3DOF MRAAM model and universal fire control algorithm of air-to-air missile. The model is built in NSE coordinate system. 
-It mainly contains two parts, target maneuver model and missile model. The target maneuver model provides some kinds of target maneuver styles, 
-such as uniform linear motion, terminal maneuver, horizontal escape maneuver and so on. The more maneuver styles will be added in the future.
+This project includes a 3DOF MRAAM model and universal fire control algorithm of air-to-air missile. The primary model is built by simulink in 
+NSE coordinate system. It mainly contains two parts, target maneuver model and missile model. The target maneuver model provides some kinds of 
+target maneuver styles, such as uniform linear motion, terminal maneuver, horizontal escape maneuver and so on. The more maneuver styles will 
+be added in the future.
 ![entire model](https://github.com/YangShengqi/Javelin/blob/master/img/entire_model.PNG)
 The missile model is 3DOF which contains the following module.
 * relative motion：describes the relative motion of missile and target；
@@ -14,7 +15,10 @@ The missile model is 3DOF which contains the following module.
 * terminate conditions：provide missile terminate conditions；
 * TGO calculation：provide TGO calculation.
 ![missile model](https://github.com/YangShengqi/Javelin/blob/master/img/missile_model.PNG)
-
+The fire control algorithm is based on missile model. It provides fitting method of calculating DLZ temporarily. You can also calculate DLZ at 
+one or 0~360 degree target entrance angle of given initial conditions.
+![DLZ](https://github.com/YangShengqi/Javelin/blob/master/img/DLZ_1.PNG)
+![DLZ](https://github.com/YangShengqi/Javelin/blob/master/img/DLZ_2.PNG)
 # Requirement
 * MATLAB 2018b 
 
