@@ -29,6 +29,12 @@ halfa_seeker_lock = 15;%degree, half locking angle of missile seeker
 nn_lim = 40; %normal load constraint
 TGO_max = 200;%s,TGO constraint
 
+overload_height = [0 3000 6000 7000 9000 12000 15000 25000];%m, typical height
+overload = [9 9 7.5 7 6 5 4 2];%g, maneuver overload of typical height
+
+turn_omega_height = [0 3048 6096 9144 12192];%m, typical height
+turn_omega = [18.5 14.3 10.2 6.7 3.9];%degree/s, turnning angular velocity of typical height
+
 %v:[0,inf], theta:(-pi,pi], psi:(-pi,pi]
-% init_t = [10000 5000 0 100 deg2rad(0) deg2rad(180)];
-% init_m = [0 5000 0 180 0 deg2rad(60)];
+init_t = [30000 13000 0 200 deg2rad(0) deg2rad(180)];
+init_m = [0 13000 0 180 0 deg2rad(0)];
