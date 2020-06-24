@@ -36,5 +36,5 @@ turn_omega_height = [0 3048 6096 9144 12192];%m, typical height
 turn_omega = [18.5 14.3 10.2 6.7 3.9];%degree/s, turnning angular velocity of typical height
 
 %v:[0,inf], theta:(-pi,pi], psi:(-pi,pi]
-init_t = [30000 13000 0 200 deg2rad(0) deg2rad(180)];
-init_m = [0 13000 0 180 0 deg2rad(0)];
+init_t = [50000 5000 0 200 deg2rad(0) deg2rad(0)];
+init_m = [0 5000 0 180 0 deg2rad(0)];
