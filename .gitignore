@@ -1,14 +1,9 @@
 temp/
 slprj/
-firecontrol/slprj
-firecontrol/model/PSDD/slprj
-firecontrol/Raero/slprj
-firecontrol/Ropt/slprj
-firecontrol/Rmax/slprj
-firecontrol/Rpi/slprj
-firecontrol/Rtr/slprj
-firecontrol/Rmin/slprj
-missile/PSDD/slprj/
+model_with_target/slprj/
+model/slprj/
+model/test.m
+model/test.slx
 *.slxc
 *.asv
 
