@@ -3,7 +3,7 @@ This project includes a 3DOF MRAAM model. The primary model is built by simulink
 It mainly contains two parts, target maneuver model and missile model. The target maneuver model provides some kinds of 
 target maneuver styles, such as uniform linear motion, terminal maneuver, horizontal escape maneuver and so on. The more maneuver styles will 
 be added in the future.
-![entire model](https://gitee.com/yangshengqi/Javelin/blob/master/img/entire_model.PNG)
+![entire model](https://gitee.com/yangshengqi/Javelin/raw/master/img/entire_model.PNG)
 The missile model is 3DOF which contains the following module.
 * relative motion：describes the relative motion of missile and target；
 * guidance law：PNG；
@@ -14,7 +14,7 @@ The missile model is 3DOF which contains the following module.
 * seeker：provide active and lock logic of missile seeker；
 * terminate conditions：provide missile terminate conditions；
 * TGO calculation：provide TGO calculation.
-![missile model](https://gitee.com/yangshengqi/Javelin/blob/master/img/missile_model.PNG)
+![missile model](https://gitee.com/yangshengqi/Javelin/raw/master/img/missile_model.PNG)
 
 # Requirement
 * MATLAB 2018b 
